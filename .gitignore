@@ -1,0 +1,16 @@
+# Personal Firebase project config — each deployer creates their own
+# from js/firebase-config.example.js. Never commit real project keys
+# to a public template repo, even though Firebase client keys are not
+# secret by design (protection comes from Firestore Security Rules).
+js/firebase-config.js
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Local backups exported from the app
+*.backup.json
+coop-training-backup-*.json
